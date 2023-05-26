@@ -18,6 +18,9 @@ public class PmsBrandController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(PmsBrandController.class);
 
+    //todo
+    //创建通用查询返回对象
+    //实现方法
 
 
 
