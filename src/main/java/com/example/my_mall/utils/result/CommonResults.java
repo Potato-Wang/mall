@@ -33,6 +33,7 @@ public class CommonResults<T> {
         return new CommonResults<T>(ResultCode.SUCCESS.getCode(), msg, data);
     }
 
+
     public static <T> CommonResults<T> failed(String msg){
         return new CommonResults<T>(ResultCode.FAILED.getCode(), msg, null);
     }
@@ -43,6 +44,10 @@ public class CommonResults<T> {
 
     public static <T> CommonResults<T> failed(ResErrorCode errorCode, String msg){
         return new CommonResults<T>(errorCode.getCode(), msg, null);
+    }
+
+    public static <T> CommonResults<T> failed(){
+        return failed(ResultCode.FAILED);
     }
 
     public static <T> CommonResults<T> invalid(){
