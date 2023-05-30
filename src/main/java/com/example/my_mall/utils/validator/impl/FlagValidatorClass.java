@@ -1,10 +1,8 @@
 package com.example.my_mall.utils.validator.impl;
 
 import com.example.my_mall.utils.validator.FlagValidator;
-import jakarta.validation.Constraint;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
-import sun.font.TrueTypeFont;
 
 public class FlagValidatorClass implements ConstraintValidator<FlagValidator, Integer> {
 

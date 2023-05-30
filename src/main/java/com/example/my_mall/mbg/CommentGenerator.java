@@ -15,7 +15,7 @@ public class CommentGenerator extends DefaultCommentGenerator {
     private boolean addRemarkComments = false;
     private static final String EXAMPLE_SUFFIX="Example";
     private static final String MAPPER_SUFFIX="Mapper";
-    private static final String API_MODEL_PROPERTY_FULL_CLASS_NAME="io.swagger.annotations.ApiModelProperty";
+    private static final String API_MODEL_PROPERTY_FULL_CLASS_NAME="io.swagger.v3.oas.annotations.media.Schema";
 
     /**
      * 用户配置的参数，用来控制是否添加自定义的注释
