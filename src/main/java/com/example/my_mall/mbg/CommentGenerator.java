@@ -41,7 +41,7 @@ public class CommentGenerator extends DefaultCommentGenerator {
                 remarks = remarks.replace("\"","'");
             }
             //给model的字段添加swagger注解
-            field.addJavaDocLine("@ApiModelProperty(value = \""+remarks+"\")");
+            field.addJavaDocLine("@Schema(name = \""+remarks+"\")");
         }
     }
 
