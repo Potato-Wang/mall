@@ -2,7 +2,7 @@ package com.example.my_mall.controller;
 
 import com.example.my_mall.dto.PmsBrandParam;
 import com.example.my_mall.mbg.model.PmsBrand;
-import com.example.my_mall.service.PmsBrandService;
+import com.example.my_mall.service.pms.PmsBrandService;
 import com.example.my_mall.utils.result.CommonPage;
 import com.example.my_mall.utils.result.CommonResults;
 import io.swagger.v3.oas.annotations.Operation;

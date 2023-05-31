@@ -1,4 +1,4 @@
-package com.example.my_mall.service;
+package com.example.my_mall.service.pms;
 
 import com.example.my_mall.dto.PmsBrandParam;
 import com.example.my_mall.mbg.model.PmsBrand;

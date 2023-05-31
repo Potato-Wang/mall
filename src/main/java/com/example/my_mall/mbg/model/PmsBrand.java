@@ -1,8 +1,6 @@
 package com.example.my_mall.mbg.model;
 
-
 import io.swagger.v3.oas.annotations.media.Schema;
-
 import java.io.Serializable;
 
 public class PmsBrand implements Serializable {
