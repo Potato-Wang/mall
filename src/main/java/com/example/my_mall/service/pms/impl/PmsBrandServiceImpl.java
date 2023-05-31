@@ -1,10 +1,10 @@
-package com.example.my_mall.service.impl;
+package com.example.my_mall.service.pms.impl;
 
 import com.example.my_mall.dto.PmsBrandParam;
 import com.example.my_mall.mbg.mapper.PmsBrandMapper;
 import com.example.my_mall.mbg.model.PmsBrand;
 import com.example.my_mall.mbg.model.PmsBrandExample;
-import com.example.my_mall.service.PmsBrandService;
+import com.example.my_mall.service.pms.PmsBrandService;
 import com.github.pagehelper.PageHelper;
 import com.mysql.cj.util.StringUtils;
 import org.springframework.beans.BeanUtils;
