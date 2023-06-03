@@ -6,7 +6,9 @@ import com.example.my_mall.service.common.RedisService;
 import com.example.my_mall.service.ums.UmsMemberCacheService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UmsMemberCacheServiceImpl implements UmsMemberCacheService {
 
     @Autowired

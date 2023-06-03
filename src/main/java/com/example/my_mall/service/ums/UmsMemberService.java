@@ -25,6 +25,8 @@ public interface UmsMemberService {
     //
     UmsMember getCurrentMember();
 
+    void updateIntegration(Long id,Integer integration);
+
     //todo
     //UserDetails loadUserByUsername(String username);
 
